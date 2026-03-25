@@ -1,9 +1,10 @@
-name = "pt-gen-refactor"
+name = "ptgen"
 main = "worker/index.js"
 compatibility_date = "2025-08-27"
 [assets]
 directory = "./frontend/dist"
-binding = "ASSETS"
+binding = "MY-ASSETS"
+pages_build_output_dir = "./frontend/dist"
 
 # 变量配置 如需使用 vars 配置，请删除 # 符号
 [vars]
