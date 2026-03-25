@@ -5,11 +5,11 @@
   "description": "Cloudflare Worker for PT-Gen Refactor",
   "main": "worker/index.js",
   "scripts": {
-  "build": "cd frontend && npm install && npm run build",
-  "deploy": "npm run build && npx wrangler deploy",
-  "dev": "cd worker && npx wrangler dev",
-  "dev:frontend": "cd frontend && npm run dev"
-}
+    "build": "cd frontend && npm install && npm run build",
+    "deploy": "npm run build && npx wrangler deploy",
+    "dev": "cd worker && npx wrangler dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
   "keywords": [
     "cloudflare",
     "worker",
